@@ -1,0 +1,187 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "tokenId",
+						"type": "uint256"
+					},
+					{
+						"components": [
+							{
+								"internalType": "address payable",
+								"name": "account",
+								"type": "address"
+							},
+							{
+								"internalType": "uint96",
+								"name": "value",
+								"type": "uint96"
+							}
+						],
+						"indexed": false,
+						"internalType": "struct LibPart.Part[]",
+						"name": "royalties",
+						"type": "tuple[]"
+					}
+				],
+				"name": "RoyaltiesSet",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "getRaribleV2Royalties",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "address payable",
+								"name": "account",
+								"type": "address"
+							},
+							{
+								"internalType": "uint96",
+								"name": "value",
+								"type": "uint96"
+							}
+						],
+						"internalType": "struct LibPart.Part[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "supportsInterface",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"supportsInterface(bytes4)": {
+					"details": "See {IERC165-supportsInterface}. Time complexity O(1), guaranteed to always use less than 30 000 gas."
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/RoyaltiesV2Upgradeable.sol": "RoyaltiesV2Upgradeable"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AddressUpgradeable.sol": {
+			"keccak256": "0x1d61fd2a04943df98d9fcbe6801a5f1a1fac175f988854a3946998703be96977",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0402187f1ff780ffb4e0326074f3f07468859aadbfa27fcccc3077aaf7b4298c",
+				"dweb:/ipfs/QmeNF1Vn1wwBYc6GexiBH2nSQgfUDNekpsy5STdsKy8Ftu"
+			]
+		},
+		"contracts/ERC165Upgradeable.sol": {
+			"keccak256": "0x391dcdd3393612e823bb9d979846bf79caabd94d3a5facb477511791a843746a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9854e736023b7d753999f38c752433c88cffa4129f52b1029d1ada94fb1f64dc",
+				"dweb:/ipfs/QmQN2izKU1xMfYwtXhHacLjTLYJPaBkp7PgajEvSGUFuwQ"
+			]
+		},
+		"contracts/IERC165Upgradeable.sol": {
+			"keccak256": "0xd20276de3721893127af04e255dae98bd7b437d91b174f6415c0dd77d10b4ac0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9ff7caa3e1f06fe12b4e0457e3763a679b40667219160a786b6ba930f27bd16f",
+				"dweb:/ipfs/QmVnCNe5sBrQhYiwUi25ziQoiEvoa7FY8GmzTsxkrFEv2y"
+			]
+		},
+		"contracts/Initializable.sol": {
+			"keccak256": "0x4f5cd3386c7d69df25a0127c221fce831e45aa24adf92e7e6641fb15e0de5c58",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d9db58f0a16f4d97d8362f82a251bb598b55c22de9a1be35760274ca3984d2dd",
+				"dweb:/ipfs/QmSLXXbyUeR4EEa9P9hsUX2EdJU1ChDeiAD2eYeaTx4zoD"
+			]
+		},
+		"contracts/LibPart.sol": {
+			"keccak256": "0x5c7ecb2be5194f4966f90b413a99197fcca8f697b83e36290a908674a376932d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aa6dca8a68548c3406b97891983c7c5fca5028de7baed0ded34099c3c878299f",
+				"dweb:/ipfs/QmW2MJ39ov21y6XU2qLHBcXFfoopiTX2fLhTnpcg7LQXBB"
+			]
+		},
+		"contracts/LibRoyaltiesV2.sol": {
+			"keccak256": "0x570efe71b03a6263e34e9e8c4873bb0cb5fcd01d716f3333acf993be48f6d0e9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://69d9b308023db1fd4b15791f4e6e5dd688a3080f9df8e28aec6c4727e55da3e7",
+				"dweb:/ipfs/QmNv4vYzEi9axE1xr2wD4tCLNZTPi6yjXjAVBPJTe2Eaqf"
+			]
+		},
+		"contracts/RoyaltiesV2.sol": {
+			"keccak256": "0x7824cefa42b1c95d416f9123302bfab9e445b743470f95ec3ad9a3cace1c4563",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://074a471464153008b0e26be3a501d6531405f73b81b2fd6946f7ef010cb37d3f",
+				"dweb:/ipfs/QmPddcaB1p78sJny62CtXKvNnNpvnoV7rtLmaD4s1d3w95"
+			]
+		},
+		"contracts/RoyaltiesV2Upgradeable.sol": {
+			"keccak256": "0xa284c4337fff6c23002e60acc3ee4c7ed7825dca06a3e3c2dd5359954c610133",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cd092a0fed8ef4f64f6b13e49e8bc56f0230fc167ed497b9551873090bfafce3",
+				"dweb:/ipfs/QmPTuBJ9zn6FPpRTd15wRFhJ1apJbfKTniS3rNx2uwXLx8"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Library for managing https://en.wikipedia.org/wiki/Set_(abstract_data_type)[sets] of primitive types. Sets have the following properties: - Elements are added, removed, and checked for existence in constant time (O(1)). - Elements are enumerated in O(n). No guarantees are made on the ordering. ``` contract Example {     // Add the library methods     using EnumerableSet for EnumerableSet.AddressSet;     // Declare a set state variable     EnumerableSet.AddressSet private mySet; } ``` As of v3.3.0, sets of type `bytes32` (`Bytes32Set`), `address` (`AddressSet`) and `uint256` (`UintSet`) are supported.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/EnumerableSetUpgradeable.sol": "EnumerableSetUpgradeable"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/EnumerableSetUpgradeable.sol": {
+			"keccak256": "0x804a25b420666af2f971461bfdb8cccf6e04b9350c24b06e25923a035731aaff",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f8030a2298db851c5af6ab478a321c66f701f5dc2a7b6225e72d4f848b5a72f7",
+				"dweb:/ipfs/QmW5aVu6nQ8nAQN2GU5Nwe9paZaBUbubbsdBUxGaGoSdkD"
+			]
+		}
+	},
+	"version": 1
+}

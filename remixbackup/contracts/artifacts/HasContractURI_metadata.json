@@ -1,0 +1,114 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "contractURI",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "supportsInterface",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"supportsInterface(bytes4)": {
+					"details": "See {IERC165-supportsInterface}. Time complexity O(1), guaranteed to always use less than 30 000 gas."
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/HasContractURI.sol": "HasContractURI"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AddressUpgradeable.sol": {
+			"keccak256": "0x1d61fd2a04943df98d9fcbe6801a5f1a1fac175f988854a3946998703be96977",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0402187f1ff780ffb4e0326074f3f07468859aadbfa27fcccc3077aaf7b4298c",
+				"dweb:/ipfs/QmeNF1Vn1wwBYc6GexiBH2nSQgfUDNekpsy5STdsKy8Ftu"
+			]
+		},
+		"contracts/ERC165Upgradeable.sol": {
+			"keccak256": "0x391dcdd3393612e823bb9d979846bf79caabd94d3a5facb477511791a843746a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9854e736023b7d753999f38c752433c88cffa4129f52b1029d1ada94fb1f64dc",
+				"dweb:/ipfs/QmQN2izKU1xMfYwtXhHacLjTLYJPaBkp7PgajEvSGUFuwQ"
+			]
+		},
+		"contracts/HasContractURI.sol": {
+			"keccak256": "0x00c30759584f20d507c8434a866c59af9eb9c610017d73d3a16a4cc7d32b3c9a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://78ed7ddd6142478e7e636b82b3b7cc820858fa690fa4123b43cee5acfaabb488",
+				"dweb:/ipfs/QmU8ApUK8Kvo52RHKwhCAShEfDZGP4q1FAHSz3jJHiSUZn"
+			]
+		},
+		"contracts/IERC165Upgradeable.sol": {
+			"keccak256": "0xd20276de3721893127af04e255dae98bd7b437d91b174f6415c0dd77d10b4ac0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9ff7caa3e1f06fe12b4e0457e3763a679b40667219160a786b6ba930f27bd16f",
+				"dweb:/ipfs/QmVnCNe5sBrQhYiwUi25ziQoiEvoa7FY8GmzTsxkrFEv2y"
+			]
+		},
+		"contracts/Initializable.sol": {
+			"keccak256": "0x4f5cd3386c7d69df25a0127c221fce831e45aa24adf92e7e6641fb15e0de5c58",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d9db58f0a16f4d97d8362f82a251bb598b55c22de9a1be35760274ca3984d2dd",
+				"dweb:/ipfs/QmSLXXbyUeR4EEa9P9hsUX2EdJU1ChDeiAD2eYeaTx4zoD"
+			]
+		}
+	},
+	"version": 1
+}

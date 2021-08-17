@@ -1,0 +1,120 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "ERC1271_INTERFACE_ID",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ERC1271_RETURN_INVALID_SIGNATURE",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ERC1271_RETURN_VALID_SIGNATURE",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_hash",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_signature",
+						"type": "bytes"
+					}
+				],
+				"name": "isValidSignature",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"isValidSignature(bytes32,bytes)": {
+					"details": "Function must be implemented by deriving contract",
+					"params": {
+						"_hash": "Arbitrary length data signed on the behalf of address(this)",
+						"_signature": "Signature byte array associated with _data"
+					},
+					"returns": {
+						"_0": "A bytes4 magic value 0x1626ba7e if the signature check passes, 0x00000000 if not MUST NOT modify state (using STATICCALL for solc < 0.5, view modifier for solc > 0.5) MUST allow external calls"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ERC1271.sol": "ERC1271"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ERC1271.sol": {
+			"keccak256": "0xc28d1c48e7da71d46b3578ac4669e36c1bfad910d4dd4bd6da0c1e950d1f5f01",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6f8b0af668281b7f3dc6028d21f7bf7936868e086a632b09aa46b743632cac81",
+				"dweb:/ipfs/QmVhEyvcLjNmW8j76EJNkyCZmksEHJ3ZpqoT76URwkysoM"
+			]
+		}
+	},
+	"version": 1
+}

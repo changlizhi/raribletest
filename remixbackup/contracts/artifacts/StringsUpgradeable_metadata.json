@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "String operations.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StringsUpgradeable.sol": "StringsUpgradeable"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StringsUpgradeable.sol": {
+			"keccak256": "0xa97bcc65b154d8f8e406cd0708472e31a622a56bd1fc11806e460f3f27fc8a22",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9288eb93251f9a0af564089a159a7f6aa85f23d171c1bd5e3cd14d8cd3cfff0c",
+				"dweb:/ipfs/QmY32q8Pb7nBwyQ6TEPRh4exMuSJijnXg23LHoopPw12nk"
+			]
+		}
+	},
+	"version": 1
+}
